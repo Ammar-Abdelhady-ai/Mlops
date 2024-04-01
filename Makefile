@@ -1,5 +1,5 @@
 install:
-    if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    pip install -r requirements.txt
 
 lint:
     pylint --disable=R,C main.py
